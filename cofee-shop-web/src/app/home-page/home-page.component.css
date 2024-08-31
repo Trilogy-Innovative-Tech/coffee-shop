@@ -38,3 +38,30 @@
     font-style: normal;
   }
 }
+
+#logo-div {
+  height: 75px;
+  width: 249px;
+  background-image: url("/img/m-logo 1.png");
+  background-size: contain;
+  background-position: center;
+}
+
+#clipboard-icon-div {
+  background-image: url("/img/Clipboard.png");
+}
+
+#search-icon-div{
+  background-image: url("/img/Search.png");
+}
+
+#menu-icon-div{
+  background-image: url("/img/Circled Menu.png");
+}
+
+#right-icon-menu div {
+  height: 36px;
+  width: 36px;
+  background-size: contain;
+  background-position: center;
+}
