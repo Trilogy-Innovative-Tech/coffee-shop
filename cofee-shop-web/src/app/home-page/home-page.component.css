@@ -7,6 +7,8 @@
 }
 
 #top-nav {
+  position: absolute;
+  margin-top: 44px;
   height: 75px;
   top: 44px;
 }
@@ -51,11 +53,11 @@
   background-image: url("/img/Clipboard.png");
 }
 
-#search-icon-div{
+#search-icon-div {
   background-image: url("/img/Search.png");
 }
 
-#menu-icon-div{
+#menu-icon-div {
   background-image: url("/img/Circled Menu.png");
 }
 
@@ -64,4 +66,58 @@
   width: 36px;
   background-size: contain;
   background-position: center;
+}
+
+#home-bottom-div {
+  margin-top: 222px;
+  h1 {
+    font-size: 57px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  #bottom-section-title-p {
+    font-size: 15px;
+    color: #B98D58;
+  }
+
+  #bottom-section-message-p {
+    font-size: 17px;
+    color: #888682;
+  }
+
+  button {
+    background-color: #B4BB6B;
+    width: 186px;
+    height: 57px;
+    border-radius: 45px;
+    border: none;
+    color: white;
+  }
+}
+
+#coffee-image-container {
+  div {
+    height: 370px;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+#coffee-1-div {
+  width: 352px;
+  background-image: url("/img/nathan-dumlao-zUNs99PGDg0-unsplash 1.png");
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#coffee-2-div {
+  background-image: url("/img/barista-putting-lid-on-coffee-cup 1.png");
+  position: relative;
+  top: -206px;
+  left: 157px;
+  width: 304px;
+  height: 363px !important;
 }
